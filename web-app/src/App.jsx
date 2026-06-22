@@ -3,7 +3,7 @@ import { Search, PenTool, Globe, TrendingUp, ShoppingBag, Sparkles, Send, Chevro
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://seo-engine-ai1.onrender.com";
 
 function ProductCard({ product, index }) {
   const [loading, setLoading] = useState(false);
